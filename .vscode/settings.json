@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+
+  "[javascriptreact, typescriptreact]": {
+    "source.fixAll.stylelint": false,
+    "source.fixAll.eslint": true,
+    "editor.formatOnSave": true
+
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "eslint.workingDirectories": ["frontend"]
+}
